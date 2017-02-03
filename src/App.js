@@ -6,10 +6,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavBar />
+        <NavBar nameApp="Carteirada" />
         <ButtonToolbar>
-          <Button bsStyle="primary" bsSize="large" active>Primary button</Button>
-          <Button bsSize="large" active>Button</Button>
+          <Button bsStyle="primary" bsSize="large" active>Primary Button</Button>
         </ButtonToolbar>
       </div>
     );

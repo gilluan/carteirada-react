@@ -7,7 +7,7 @@ class NavBar extends Component {
         <Navbar inverse collapseOnSelect>
          <Navbar.Header>
            <Navbar.Brand>
-             <a href="#">Carteirada</a>
+             <a href="#">{this.props.nameApp}</a>
            </Navbar.Brand>
          </Navbar.Header>
          <Nav>
