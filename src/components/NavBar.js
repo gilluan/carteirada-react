@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem } from 'react-bootstrap'
+import { Navbar } from 'react-bootstrap'
 
 class NavBar extends Component {
   render() {
@@ -10,9 +10,6 @@ class NavBar extends Component {
              <a href="#">{this.props.nameApp}</a>
            </Navbar.Brand>
          </Navbar.Header>
-         <Nav>
-           <NavItem eventKey={1} href="#">Inicio</NavItem>
-         </Nav>
         </Navbar>
     );
   }

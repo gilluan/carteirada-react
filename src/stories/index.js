@@ -1,7 +1,6 @@
 import React from 'react';
 import { storiesOf, action, linkTo } from '@kadira/storybook';
-import Button from './Button';
-import Welcome from './Welcome';
+import { NavBar } from '../components/NavBar';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
