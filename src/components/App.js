@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
+import SideBar from './SideBar';
 import { Row, Col, Grid } from 'react-bootstrap';
 import { Link } from 'react-router';
 
@@ -11,7 +12,7 @@ class App extends Component {
         <Grid>
         <Row className="show-grid">
           <Col xs={6} md={4}>
-            Inicio
+            <SideBar />
           </Col>
           <Col xs={12} md={8}>{this.props.children}</Col>
         </Row>
