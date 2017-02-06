@@ -13,7 +13,6 @@ class Home extends Component {
   );
     return (
       <div>
-
        <Panel header={title} bsStyle="primary">
          <Form horizontal>
             <FormGroup controlId="formHorizontalEmail">
@@ -24,7 +23,6 @@ class Home extends Component {
                 <FormControl type="number" placeholder="Valor" />
               </Col>
             </FormGroup>
-
             <FormGroup controlId="formHorizontalPassword">
               <Col componentClass={ControlLabel} sm={2}>
                 Descrição
@@ -33,7 +31,6 @@ class Home extends Component {
                 <FormControl type="text" placeholder="Descrição" />
               </Col>
             </FormGroup>
-
             <FormGroup controlId="formControlsSelect">
             <Col componentClass={ControlLabel} sm={2}>
               Tipo
