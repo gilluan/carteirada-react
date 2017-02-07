@@ -1,1 +1,1 @@
-Projeto aplicativo financeiro em React
+Aplicativo de testes com react e jsonplaceholder
