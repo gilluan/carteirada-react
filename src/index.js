@@ -1,11 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import Root from './components/Root';
+import { createStore } from 'redux';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
+import posts from './reducers/posts';
 
-ReactDOM.render(
-  <Root />,
+let store = createStore(posts);
+
+render(
+  <Root store={store} />,
   document.getElementById('root')
 );

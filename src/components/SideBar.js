@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Jumbotron, Button, Nav, NavItem } from 'react-bootstrap';
+import {  Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router';
 
 class SideBar extends Component {

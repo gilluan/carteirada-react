@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import NavBar from './NavBar';
 import SideBar from './SideBar';
 import { Row, Col, Grid } from 'react-bootstrap';
-import { Link } from 'react-router';
 
 class App extends Component {
   render() {

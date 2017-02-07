@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Jumbotron, Button, Panel, Col, Form, FormGroup, FormControl, ControlLabel } from 'react-bootstrap'
+import {  Button, Panel, Col, Form, FormGroup, FormControl, ControlLabel } from 'react-bootstrap'
 
 class Home extends Component {
 
