@@ -1,7 +1,7 @@
 const posts = (state = [], action) => {
   switch (action.type) {
-    case 'TEST':
-      console.log('funfou')
+    case 'ADD_POST':
+      //alert('add post');
       return state;
     default:
       return state
@@ -9,4 +9,4 @@ const posts = (state = [], action) => {
 }
 
 
-export default posts
+export default posts;

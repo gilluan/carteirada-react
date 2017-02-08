@@ -6,7 +6,7 @@ class SideBar extends Component {
   render() {
     return (
         <Nav bsStyle="pills" stacked >
-          <NavItem eventKey={1}><Link to="/">Home</Link></NavItem>
+          <NavItem eventKey={1}><Link to="/">Posts</Link></NavItem>
           <NavItem eventKey={2} title="/report"><Link to="/report">Relatórios</Link></NavItem>
         </Nav>
     );
