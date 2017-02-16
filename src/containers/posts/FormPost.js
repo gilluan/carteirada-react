@@ -9,22 +9,21 @@ let FormPost = ({ dispatch }) => {
   );
   let title
   let body
+  let input
   return (
 
       <div>
        <Panel header={titleHeader} bsStyle="primary">
          <Form horizontal onSubmit={(e) => {
            e.preventDefault();
-           console.log(body);
-           console.log(title.value);
-           dispatch({type: 'ADD_POST'});
+           dispatch({type: 'ADD_POST', payload: {title: title.value, body: body.value}});
          }}>
             <FormGroup controlId="formHorizontalTitle">
               <Col componentClass={ControlLabel} sm={2}>
                 Title
               </Col>
               <Col sm={10}>
-                <FormControl type="text" ref={ node => {title = node }} placeholder="Title" />
+                <FormControl type="text" inputRef={ref => {title = ref; }} placeholder="Title" />
               </Col>
             </FormGroup>
             <FormGroup controlId="formHorizontalBody">
@@ -32,7 +31,7 @@ let FormPost = ({ dispatch }) => {
                 Body
               </Col>
               <Col sm={10}>
-                <FormControl type="text" ref={ node => { body = node }} placeholder="Body" />
+                <FormControl type="text" inputRef={ref => {body = ref; }} placeholder="Body" />
               </Col>
             </FormGroup>
             <FormGroup>

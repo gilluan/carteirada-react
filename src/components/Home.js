@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FormPost from '../containers/posts/FormPost'
-import ListPosts from './posts/ListPosts'
+import ListPostsContainer from '../containers/posts/ListPostsContainer'
+
 class Home extends Component {
 
 
@@ -9,7 +10,7 @@ class Home extends Component {
     return (
       <div>
        <FormPost />
-       <ListPosts />
+       <ListPostsContainer />
       </div>
 
     );
